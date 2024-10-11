@@ -9,9 +9,9 @@
     
 }
 .Fursona{
-    width: 615px;
-    height: 650px;
-    margin-left: -50px;
+    width: 130rem;
+    height: 150rem;
+    margin-left: 230rem;
 }
 a{
     color: black;
@@ -26,26 +26,48 @@ a{
     display: inline;
     white-space: nowrap;
     color: #ffffff;
-    -webkit-text-stroke: 3px #000000;
-    font-size: 100px;
+    -webkit-text-stroke: 15px #000000;
+    font-size: 20rem;
     margin-top: 10%;
     margin-left: 15%;
 }
 .text1{
     color: #ffffff;
-    -webkit-text-stroke: 3px #000000;
-    font-size: 100px;
+    -webkit-text-stroke: 15px #000000;
+    font-size: 20rem;
     margin-top: 16%;
-    margin-left: -30%;
+    margin-left: -24%;
 }
 .h3{
-    font-size: 50px;
-    margin-top: 25%;
-    margin-left: -20%
+    font-size: 10rem;
+    margin-top: 23%;
+    margin-left: -15%
 }
 .h2{
     text-align: center;
     margin-bottom: 20px;
+}
+.profile{
+    width: 70rem;
+    margin-top: 4%;
+    margin-left: 5%;
+    border-radius: 5%;
+    border-style: solid;
+
+}
+.content{
+    text-align: justify;
+    font-size: 6rem;
+    margin-top: -55dvh;
+    margin-bottom: 50%;
+    margin-left: 35%;
+    margin-right: 5%;
+    position: relative;
+    padding: 15rem;
+    background-color: #ffffff;
+    border-radius: 5% 5% 5% 5%;
+    height: 90rem;
+
 }
 nav{
     display: flex;
@@ -96,28 +118,6 @@ nav{
 }
 #section2{
     display: block;
-}
-.profile{
-    width: 350px;
-    margin-top: 4%;
-    margin-left: 5%;
-    border-radius: 5%;
-    border-style: solid;
-
-}
-.content{
-    text-align: justify;
-    font-size: 20px;
-    margin-top: -30%;
-    margin-bottom: 50%;
-    margin-left: 35%;
-    margin-right: 5%;
-    position: relative;
-    padding: 30px;
-    background-color: #ffffff;
-    border-radius: 5% 5% 5% 5%;
-    height: 250px;
-
 }
 .body{
     background-color: #fff2de;
