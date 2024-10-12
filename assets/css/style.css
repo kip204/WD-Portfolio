@@ -11,7 +11,7 @@
 .Fursona{
     width: 130rem;
     height: 150rem;
-    margin-left: 230rem;
+    margin-left: 25rem;
 }
 a{
     color: black;
@@ -48,20 +48,20 @@ a{
     margin-bottom: 20px;
 }
 .profile{
-    width: 70rem;
+    width: 80rem;
     margin-top: 4%;
-    margin-left: 5%;
+    margin-left: 10%;
     border-radius: 5%;
     border-style: solid;
 
 }
-.content{
+.Abtme{
     text-align: justify;
     font-size: 6rem;
-    margin-top: -55dvh;
+    margin-top: -61dvh;
     margin-bottom: 50%;
     margin-left: 35%;
-    margin-right: 5%;
+    margin-right: 10%;
     position: relative;
     padding: 15rem;
     background-color: #ffffff;
@@ -69,28 +69,129 @@ a{
     height: 90rem;
 
 }
+.edu{
+    text-align: justify;
+    position: relative;
+    padding: 15rem;
+    background-color: #ffffff;
+    border-radius: 5% 5% 5% 5%;
+    height: 120rem;
+    font-size: 6rem;
+    margin-top: -90dvh;
+    margin-left: 23dvh;
+    margin-right: 20dvh;
+}
+.exp{
+    text-align: justify;
+    position: relative;
+    padding: 15rem;
+    background-color: #ffffff;
+    border-radius: 5% 5% 5% 5%;
+    height: 86rem;
+    font-size: 6rem;
+    margin-top: 10dvh;
+    margin-left: 23dvh;
+    margin-right: 20dvh;
+}
+.expe{
+    font-size: 15rem;
+    margin-top: 5dvh;
+    margin-bottom: -3dvh;
+    margin-left: 5dvh;
+}
+.exper{
+    font-size: 8rem;
+    margin-bottom: 3dvh;
+    margin-left: -5dvh;
+}
+.ex{
+    font-size: 15rem;
+    margin-top: 5dvh;
+    margin-bottom: -3dvh;
+    margin-left: 5dvh;
+}
+.expert{
+    text-align: justify;
+    line-height: 15rem;
+    position: relative;
+    padding: 15rem;
+    background-color: #ffffff;
+    border-radius: 5% 5% 5% 5%;
+    height: 150rem;
+    font-size: 6rem;
+    margin-top: 10dvh;
+    margin-left: 23dvh;
+    margin-right: 20dvh;
+}
+.portf{
+    font-size: 15rem;
+    margin-top: 5dvh;
+    margin-bottom: -3dvh;
+    margin-left: 5dvh;
+
+}
+.portfo{
+    font-size: 8rem;
+    margin-bottom: 3dvh;
+    margin-left: 10dvh;
+    margin-top: 5dvh;
+}
+.portfol{
+    padding: 15rem;
+    background-color: #ffffff;
+    border-radius: 5% 5% 5% 5%;
+    height: 555rem;
+    margin-top: 10dvh;
+    margin-left: 10dvh;
+    margin-right: 10dvh;
+    border-style: solid;
+}
+.pic1{
+    width: 75dvh;
+    height: 75dvh;
+}
+.pic2{
+    width: 80dvh;
+    height: 75dvh;
+}
+.pic3{
+    width: 90dvh;
+    height: 75dvh;
+}
+.pic4{
+    width: 150dvh;
+    height: 75dvh;
+}
+.pic5{
+    width: 95dvh;
+    height: 75dvh;
+}
+.pic6{
+    width: 75dvh;
+    height: 75dvh;
+}
 nav{
     display: flex;
     justify-content: center;
-    margin-left: -400px;
-    gap: 3.0rem;
+    font-size: 6rem;
+    margin-left: -45dvh;
+    margin-top: 75dvh;
+    gap: 2.10rem;
 }
-
 .btn1{
-    display: inline-block;
+    display: inline;
+    white-space: nowrap;
     text-align: center;
     list-style: none;
-    font-size: 25px;
-    margin-top: 580px;
     margin-right: 75px;
     margin-left: 30px;
-    padding: 10px;
+    padding: 4rem;
     background-color: transparent;
     border: 10px, 10px, 10px, 10px;
     cursor: pointer;
    transition: background-color 0.3s ease-in-out;
-    width: 155px;
-    height: 50px;
+    width: 45rem;
+    height: 15rem;
 }
 .btn1:hover{
     background-color: #ffffff;
@@ -99,24 +200,22 @@ nav{
     display: inline-block;
     text-align: center;
     list-style: none;
-    font-size: 25px;
-    margin-top: 580px;
-    padding: 10px;
+    padding: 4rem;
     background-color: transparent;
     border: 10px, 10px, 10px, 10px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-    width: 155px;
-    height: 50px;
+    width: 45rem;
+    height: 15rem;
 }
 .btn:hover{
     background-color: #ffffff;
 
 }
-#section1{
-    display: block;
+.section{
+    display: none;
 }
-#section2{
+.section:target{
     display: block;
 }
 .body{
