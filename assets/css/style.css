@@ -49,6 +49,7 @@ a{
 }
 .profile{
     width: 80rem;
+    height: 100rem;
     margin-top: 4%;
     margin-left: 10%;
     border-radius: 5%;
@@ -58,7 +59,7 @@ a{
 .Abtme{
     text-align: justify;
     font-size: 6rem;
-    margin-top: -61dvh;
+    margin-top: -58dvh;
     margin-bottom: 50%;
     margin-left: 35%;
     margin-right: 10%;
@@ -80,6 +81,9 @@ a{
     margin-top: -90dvh;
     margin-left: 23dvh;
     margin-right: 20dvh;
+}
+.educ{
+    line-height: 15rem;
 }
 .exp{
     text-align: justify;
@@ -143,7 +147,7 @@ a{
     padding: 15rem;
     background-color: #ffffff;
     border-radius: 5% 5% 5% 5%;
-    height: 555rem;
+    height: 445rem;
     margin-top: 10dvh;
     margin-left: 10dvh;
     margin-right: 10dvh;
@@ -170,9 +174,35 @@ a{
     height: 65dvh;
 }
 .co{
-    font-size: 500rem;
-}
+    font-size: 15rem;
+    margin-top: 5dvh;
+    margin-bottom: -3dvh;
+    margin-left: 5dvh;
 
+}
+.con{
+    display: flex;
+    justify-content: center;
+    line-height: 15rem;
+    height: 150rem;
+    font-size: 6rem;
+    margin-top: 10dvh;
+}
+.cont{
+    list-style-type: none;
+    text-align: justify;
+    padding: 6rem;
+    background-color: #ffffff;
+    border-radius: 5% 5% 5% 5%;
+    height: 58rem;
+    margin-top: 10dvh;
+    margin-left: 10dvh;
+    margin-right: 10dvh;
+}
+img{
+    width: 10rem;
+    height: 10rem;
+}
 nav{
     display: flex;
     justify-content: center;
