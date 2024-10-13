@@ -137,6 +137,9 @@ a{
     margin-top: 5dvh;
 }
 .portfol{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2100px, 1fr));
+    gap: 2.15rem;
     padding: 15rem;
     background-color: #ffffff;
     border-radius: 5% 5% 5% 5%;
@@ -147,29 +150,29 @@ a{
     border-style: solid;
 }
 .pic1{
-    width: 75dvh;
-    height: 75dvh;
+    width: 65dvh;
+    height: 65dvh;
 }
 .pic2{
-    width: 80dvh;
-    height: 75dvh;
+    width: 75dvh;
+    height: 65dvh;
 }
 .pic3{
-    width: 90dvh;
-    height: 75dvh;
+    width: 80dvh;
+    height: 65dvh;
 }
 .pic4{
-    width: 150dvh;
-    height: 75dvh;
+    width: 85dvh;
+    height: 65dvh;
 }
 .pic5{
-    width: 95dvh;
-    height: 75dvh;
+    width: 65dvh;
+    height: 65dvh;
 }
-.pic6{
-    width: 75dvh;
-    height: 75dvh;
+.co{
+    font-size: 500rem;
 }
+
 nav{
     display: flex;
     justify-content: center;
