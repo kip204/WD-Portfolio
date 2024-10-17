@@ -116,5 +116,7 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
+|Header|How to create the header|https://youtu.be/7UIBIaEZVWw?si=puOC454uqmv3rRYO 1:14|
+|Buttons|How to add the buttons|https://youtu.be/7UIBIaEZVWw?si=puOC454uqmv3rRYO 2:01|
+|Footer|How to add the Footer|https://youtu.be/nkZz9DOBzBI?si=v2ANHaPAiFT03a2d|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
