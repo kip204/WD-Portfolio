@@ -20,7 +20,7 @@ a{
 .header{
     display: flex;
     background-image: linear-gradient(to right,#fff383 50%, #ffd79b, #C7FEF0);
-
+    margin-right: -8rem;
 }
 .h1{
     display: inline;
@@ -68,6 +68,7 @@ a{
     background-color: #ffffff;
     border-radius: 5% 5% 5% 5%;
     height: 90rem;
+    border-style: solid;
 
 }
 .edu{
@@ -81,6 +82,7 @@ a{
     margin-top: -90dvh;
     margin-left: 23dvh;
     margin-right: 20dvh;
+    border-style: solid;
 }
 .educ{
     line-height: 15rem;
@@ -96,6 +98,7 @@ a{
     margin-top: 10dvh;
     margin-left: 23dvh;
     margin-right: 20dvh;
+    border-style: solid;
 }
 .expe{
     font-size: 15rem;
@@ -124,8 +127,15 @@ a{
     height: 150rem;
     font-size: 6rem;
     margin-top: 10dvh;
-    margin-left: 23dvh;
-    margin-right: 20dvh;
+    margin-left: 50dvh;
+    margin-right: 50dvh;
+    border-style: solid;
+}
+.percent{
+    list-style: none;
+    text-align: right;
+    line-height: 15rem;
+    margin-top: -69dvh;
 }
 .portf{
     font-size: 15rem;
@@ -250,6 +260,34 @@ nav{
 }
 .section:target{
     display: block;
+}
+.foot{
+    background-color: #ffffff;
+    padding: 18rem;
+    text-align: center;
+    margin-top: 63dvh;
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5.25rem;
+}
+
+.social-list li {
+    display: inline;
+}
+
+.social-list img {
+    width: 10rem;
+    height: 10rem;
+}
+.contact_me{
+    font-size: 7rem;
+    line-height: 30rem;
+    text-decoration: underline;
 }
 .body{
     background-color: #fff2de;
